@@ -1,6 +1,8 @@
 package org.Sample;
 
 public class EmpDetails {
+	int a=100;
+	int b=50;
 
 private void empId(int id) {
 	System.out.println("Emp ID :"+id);
@@ -10,6 +12,9 @@ System.out.println("Company Name :"+name);
 }
 private void add() {
 	System.out.println("Added");
+}
+private void print() {
+	System.out.println("Print Sucessful....");
 }
 public static void main(String[]args) {
 	EmpDetails d=new EmpDetails();
